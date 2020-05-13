@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Roboto:400,500&display=swap&subset=cyrillic"
+        rel="stylesheet"> <!-- шрифты из гугл фонтс -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__contacts">
+                    <!-- не даёт съехать текстку -->
+                    <a class="header__phone" href="tel:89508528910">8 950 852 89 10</a>
+                    <!-- tel:89508528910 это позволяет звонить с телефона -->
+                    <a class="header__email" href="#">m.i.n.a.y@mail.ru</a>
+                    <a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">Бесплатная
+                        консультация</a>
+                </div>
+            </div>
+        </div>
+        <div class="header__content">
+            <div class="container">
+                <div class="haeder__content-inner">
+                    <div class="header__logo">
+                        <a href="#">
+                            <img src="img/logo.png" alt="">
+                        </a>
+                    </div>
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Услуги</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="slider">
+        <!-- переключение слайдов -->
+        <div class="container">
+            <div class="slider__inner">
+                <!-- то что лежит внутри слайда -->
+                <div class="slider__item">
+                    <div class="slider__item-content">
+                        <div class="slider__title">
+                            КОМПЛЕКСНОЕ ЗАКРЫТИЕ КАЗАХСТАНА
+                        </div>
+                        <div class="slider__text">
+                            Если ты не казах, то тебе здесь делать нечего.
+                        </div>
+                        <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn
+                        deafult-btn">
+                            <!-- параметры кнопки по умолчанию для всех -->
+                            Оставь надежду
+                        </a>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__item-content">
+                        <div class="slider__title">
+                            КОМПЛЕКСНОЕ ЗАКРЫТИЕ КАЗАХСТАНА
+                        </div>
+                        <div class="slider__text">
+                            Если ты не казах, то тебе здесь делать нечего.
+                        </div>
+                        <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn
+                        deafult-btn">
+                            <!-- параметры кнопки по умолчанию для всех -->
+                            Оставь надежду
+                        </a>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__item-content">
+                        <div class="slider__title">
+                            КОМПЛЕКСНОЕ ЗАКРЫТИЕ КАЗАХСТАНА
+                        </div>
+                        <div class="slider__text">
+                            Если ты не казах, то тебе здесь делать нечего.
+                        </div>
+                        <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn
+                         deafult-btn">
+                            <!-- параметры кнопки по умолчанию для всех -->
+                            Оставь надежду
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="container">
+            <div class="services__top">
+                <div class="services__title-box">
+                    <div class="services__title">
+                        Наши услуги
+                    </div>
+                    <div class="services__text">
+                        Мы проверяем на сколько вы настоящий Казах, помогаем с переездом в столицу мира КАЗАХСТАН!
+                    </div>
+                </div>
+                <div class="services__btn">
+                    <a href="#">
+                        Показать все услуги
+                    </a>
+                </div>
+            </div>
+            <div class="services__items">
+                <div class="services__item">
+                    <img src="img/about-1.png" alt="">
+                    <div class="services__item-title">
+                        Переезд в Казахстан
+                    </div>
+                    <div class="services__item-text">
+                        Мы поможем Вам перейти границу
+                    </div>
+                    <div class="services__item-btn">
+                        <a class="services__item-link" href="#">Подробнее</a>
+                        <a data-fancybox data-src="#modal" href="javascript:;" class="deafult-btn">
+
+                            <!-- параметры кнопки по умолчанию для всех -->
+                            Заказать
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="services__item">
+                    <img src="img/about-2.png" alt="">
+                    <div class="services__item-title">
+                        Производство кумыса
+                    </div>
+                    <div class="services__item-text">
+                        Мы производим самый лучший кумыс в мире и во всей вселенной
+                    </div>
+                    <div class="services__item-btn">
+                        <a class="services__item-link" href="#">Подробнее</a>
+                        <a data-fancybox data-src="#modal" href="javascript:;" class="deafult-btn">
+                            <!-- параметры кнопки по умолчанию для всех -->
+                            Заказать
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="services__item">
+                    <img src="img/about-3.png" alt="">
+                    <div class="services__item-title">
+                        Казахстанский тенге
+                    </div>
+                    <div class="services__item-text">
+                        Отмывание валюты с помощью народных средств, катировки тенге на мировом рынке
+                    </div>
+                    <div class="services__item-btn">
+                        <a class="services__item-link" href="#">Подробнее</a>
+                        <a data-fancybox data-src="#modal" href="javascript:;" class="deafult-btn">
+                            <!-- параметры кнопки по умолчанию для всех -->
+                            Заказать
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <div class="about__inner">
+                <div class="about__title">
+                    О компании
+                </div>
+                <div class="about__text">
+                    Компания специализируется на оказании услуг в сфере иммиграции,производства
+                    и продаже высококачественного кумыса как оптом (баррель) так и в розницу (полторашка).
+                    Мы поможем вам правильно вложить свои сбережения в кумыс, ведь на данный момент 1 баррель кумыса
+                    равен 100$ на мировом рынке!
+
+                </div>
+                <a href="#" class="about__btn deafult-btn">
+                    <!-- параметры кнопки по умолчанию для всех -->
+                    Узнать больше
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="form">
+        <div class="container">
+            <div class="form__inner">
+                <div class="form__content">
+                    <div class="form__title-box">
+                        <div class="form__title">
+                            Получить консультацию
+                        </div>
+                        <div class="form__text">
+                            Мы проверяем на сколько вы настоящий Казах, помогаем с переездом в столицу мира КАЗАХСТАН!
+                        </div>
+                    </div>
+                    <div class="form__box">
+                        <form>
+                            <div class="form__box-inner">
+                                <div class="form__box-left">
+                                    <label>
+                                        E-mail
+                                        <input type="text">
+                                    </label>
+                                    <label>
+                                        Контактный телефон
+                                        <input type="text">
+                                    </label>
+                                    <label>
+                                        ФИО
+                                        <input type="text">
+                                    </label>
+                                    <label>
+                                        Тема вопроса
+                                        <select>
+                                            <option>----------</option>
+                                            <option>----------</option>
+                                            <option>----------</option>
+                                            <option>----------</option>
+                                        </select>
+                                    </label>
+                                </div>
+                                <div class="form__box-right">
+                                    <label>
+                                        Сообщение
+                                        <textarea></textarea>
+                                    </label>
+                                    <button class="deafult-btn" type="submit">Получить консультацию</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="advantages">
+        <div class="container">
+            <div class="advantages__inner">
+                <div class="advantages-item">
+                    <div class="advantages_title">
+                        Десятки довольных Казахов ежемесячно
+                    </div>
+                    <div class="advantages__text">
+                        Мы умеем за не большой гонорар сделать из тебя настоящего Казаха!
+                    </div>
+                </div>
+                <div class="advantages-item">
+                    <div class="advantages_title">
+                        Отличное знание законов в сфере иммиграции.
+                    </div>
+                    <div class="advantages__text">
+                        Позволяет нам эффективно провозить через границу пять человек под видом
+                        пакетов с насваем
+                    </div>
+                </div>
+                <div class="advantages-item">
+                    <div class="advantages_title">
+                        Большой опыт в производстве кумыса
+                    </div>
+                    <div class="advantages__text">
+                        Мы обладаем большим опытом в производстве кумыса самого лучшего качества.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="news">
+        <div class="container">
+            <div class="news__top">
+                <div class="news__title-box">
+                    <div class="news__title">
+                        Новости компании
+                    </div>
+                    <div class="news__text">
+                        Мы проверяем на сколько вы настоящий Казах, помогаем с переездом в столицу мира КАЗАХСТАН!
+                    </div>
+                </div>
+                <div class="news__btn">
+                    <a href="#">
+                        Открыть все новости
+                    </a>
+                </div>
+            </div>
+            <div class="news__inner">
+                <div class="news__slider">
+                    <div class="news__slider-inner">
+                        <div class="news__slider-item">
+                            <div class="news__slider-title">
+                                Переезд в Казахстан из Америки
+                            </div>
+                            <div class="news__slider-text">
+                                На сегодняшний день многие Американци просто мечтают переехать
+                                жить в Казахстан, но не у всех это получается т.к контроль на границе
+                                ужесточили и впускают тоько по разрезу глаз. Наша компания уже помогла
+                                тысячам людей со всего мира так же и людям из США перехать в столицу мира
+                                Казахстан.
+                            </div>
+                            <div class="news__slider-author">
+                                Антон Минаев, генеральный директор компании Казахстан +
+                            </div>
+                        </div>
+                        <div class="news__slider-item">
+                            <div class="news__slider-title">
+                                Переезд в Казахстан из Америки
+                            </div>
+                            <div class="news__slider-text">
+                                На сегодняшний день многие Американци просто мечтают переехать
+                                жить в Казахстан, но не у всех это получается т.к контроль на границе
+                                ужесточили и впускают тоько по разрезу глаз. Наша компания уже помогла
+                                тысячам людей со всего мира так же и людям из США перехать в столицу мира
+                                Казахстан. На сегодняшний день многие Американци просто мечтают переехать
+                                жить в Казахстан, но не у всех это получается т.к контроль на границе
+                                ужесточили и впускают тоько по разрезу глаз. Наша компания уже помогла
+                                тысячам людей со всего мира так же и людям из США перехать в столицу мира
+                                Казахстан.
+                            </div>
+                            <div class="news__slider-author">
+                                Антон Минаев, генеральный директор компании Казахстан +
+                            </div>
+                        </div>
+                        <div class="news__slider-item">
+                            <div class="news__slider-title">
+                                Переезд в Казахстан из Америки
+                            </div>
+                            <div class="news__slider-text">
+                                На сегодняшний день многие Американци просто мечтают переехать
+                                жить в Казахстан, но не у всех это получается т.к контроль на границе
+                                ужесточили и впускают тоько по разрезу глаз. Наша компания уже помогла
+                                тысячам людей со всего мира так же и людям из США перехать в столицу мира
+                                Казахстан.
+                            </div>
+                            <div class="news__slider-author">
+                                Антон Минаев, генеральный директор компании Казахстан +
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="news__blog">
+                    <div class="news__images">
+                        <img src="img/news-1.jpg" alt="">
+                        <div class="news__date">03.04</div>
+                    </div>
+                    <div class="news__blog-title">
+                        Новость компании
+                    </div>
+                    <div class="news__blog-text">
+                        На сегодняшний день, коллектив компании составляет 500 человек
+                        и все они готовы увелечить демографию Казахстана путём перевоза
+                        людей через границу
+                    </div>
+                </a>
+                <a href="#" class="news__blog">
+                    <div class="news__images">
+                        <img src="img/news-2.jpg" alt="">
+                        <div class="news__date">03.04</div>
+                    </div>
+                    <div class="news__blog-title">
+                        Новость компании
+                    </div>
+                    <div class="news__blog-text">
+                        На сегодняшний день, коллектив компании составляет 500 человек
+                        и все они готовы увелечить демографию Казахстана путём перевоза
+                        людей через границу
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__info">
+                        <div class="footer__title">
+                            Комплексное закрытие Казахстана
+                        </div>
+                        <div class="footer__text">
+                            Границы закрыты но мы вам пожем стать частью Казахстана
+                        </div>
+                        <a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">Бесплатная
+                            консультация
+                        </a>
+                        <ul class="footer__list">
+                            <li><a class="footer__phone" href="tel:89508528910">8 950 852 89 10</a></li>
+                            <li><a href="#">m.i.n.a.y@mail.ru</a></li>
+                            <li><a class="footer__adress" href="#">Кривянская, ул.Доруррс 1</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__map">
+                        <iframe width="630px" height="250px"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.0782358986107!2d40.16011441596532!3d47.42068957917278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e24f1c9d1c2b29%3A0xc15b472d4043efe9!2z0JrRgNC40LLRj9C90YHQutCw0Y8sINCg0L7RgdGC0L7QstGB0LrQsNGPINC-0LHQuy4sIDM0NjQ2Ng!5e1!3m2!1sru!2sru!4v1586344294342!5m2!1sru!2sru"
+                            frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                            tabindex="0"> <!-- страница внутри другой -->
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_copy">
+            <div class="container">
+                <div class="copy__text">
+                    © 2020 creator by Anton Minaev. Все права не защищены.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="modal">
+        <h2>Шалом!</h2>
+        <p>Ты казах?</p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.formstyler.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
